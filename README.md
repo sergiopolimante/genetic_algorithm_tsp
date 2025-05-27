@@ -6,6 +6,7 @@ This repository contains a Python implementation of a Traveling Salesman Problem
 
 - Download and Install conda environment manager.
   -  https://www.anaconda.com/download
+- Open the `Anaconda Prompt`
 - create the `fiap_tsp` environment
   - `conda env create --file environment.yml`
 - activate the environment
