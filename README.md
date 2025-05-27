@@ -2,6 +2,8 @@
 
 This repository contains a Python implementation of a Traveling Salesman Problem (TSP) solver using a Genetic Algorithm (GA). The TSP is a classic problem in the field of combinatorial optimization, where the goal is to find the shortest possible route that visits a set of given cities exactly once and returns to the original city.
 
+![alt text](image.png)
+![alt text](image-1.png)
 ## Prerequisites
 
 - Download and Install conda environment manager.

@@ -32,13 +32,13 @@ BLUE = (0, 0, 255)
 
 # Initialize problem
 # Using Random cities generation
-cities_locations = [(random.randint(NODE_RADIUS + PLOT_X_OFFSET, WIDTH - NODE_RADIUS), random.randint(NODE_RADIUS, HEIGHT - NODE_RADIUS))
-                    for _ in range(N_CITIES)]
+# cities_locations = [(random.randint(NODE_RADIUS + PLOT_X_OFFSET, WIDTH - NODE_RADIUS), random.randint(NODE_RADIUS, HEIGHT - NODE_RADIUS))
+#                     for _ in range(N_CITIES)]
 
 
 # # Using Deault Problems: 10, 12 or 15
-# WIDTH, HEIGHT = 800, 400
-# cities_locations = default_problems[15]
+WIDTH, HEIGHT = 800, 400
+cities_locations = default_problems[15]
 
 
 # Using att48 benchmark
