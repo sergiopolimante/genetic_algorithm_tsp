@@ -91,7 +91,7 @@ while running:
     population, population_fitness = sort_population(
         population,  population_fitness)
 
-    best_fitness = calculate_fitness(population[0])
+    best_fitness = population_fitness[0]
     best_solution = population[0]
 
     best_fitness_values.append(best_fitness)
